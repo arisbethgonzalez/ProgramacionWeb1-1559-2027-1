@@ -1,0 +1,77 @@
+/*Modelo RGB*/
+.rgb{
+    background-color: rgb(244, 62, 62);
+    color: rgb(220, 219, 219);
+}
+
+.rgb h3{
+    color: rgb(0,0,0);
+}
+
+/*Modelo RGBA*/
+.rgba{
+    background-color: rgba(219,75,65,.5);
+}
+
+/*Modelo hexadecimal*/
+.hex{
+    background-color: #52ec52;
+    color: #6f3030;
+}
+
+/*Modelo hsl*/
+.hsl{
+    background-color: hsl(59,41%,50%);
+}
+
+/*modelo hsla*/
+.hsla{
+   background-color: hsla(100, 50%, 50%, 0.7);
+}
+
+/* colores multinavegador*/
+.black{
+    color: black;
+
+}
+
+.white{
+    color: white;
+    background-color: black;
+}
+
+.salmon{
+    color: salmon;
+}
+
+.blue{
+    color: blue;
+}
+
+.lime{
+    color: lime;
+}
+
+/*clase para el borde solid es el mas comun pero hay varios*/
+.borde{
+    /* border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    se puede poner propiedad por propiedad o todo en una linea ordenado en ancho, estilo y color */
+    border: 10px dotted red;
+}
+
+
+.borde-interno{
+    border: 2px solid darkred;
+}
+
+/*degradados*/
+
+.lineal{
+    background-image: linear-gradient(to top, red, blue);
+}
+
+.radial{
+    background-image: radial-gradient(circle, violet,rgb(232, 30, 131));
+}
