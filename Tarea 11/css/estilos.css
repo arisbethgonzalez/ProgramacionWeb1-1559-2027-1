@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#encabezado{
+    background-color: black;
+    color: white;
+    /*
+    El relleno o padding: espacio entre el contenido del elemento y su borde
+    Se aplican los valores en sentido horario: top, right, bottom, left
+    1valor: t,r,b,l 2valores:tb, rl, 3valores: t, rl, b 
+    */
+
+    padding: 5px 5px 5px 5px;
+
+    /*
+    El margen es el espacio que hay entre un elemento html 
+    y el resto de los elementos html a su alrededor
+    */
+    margin:15px;
+
+    /*
+    El borde es el contorno visual alrededor de nuestro elemento html, dentro de él podemos 
+    encontrar el contenido del elemento y su relleno(padding).
+    Valores: solid, dotted, dashed, double, groove, ridge, inset, outset, hidden y none
+    */
+    border: 5px solid red;
+    border-top-style: double;
+    border-right-color: blue;
+    border-left-color: blue;
+    border-radius: 10%;
+
+    /*
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    */
+
+    /*
+    Se puede utilizar para crear efectos de sombra alrededor del borde de un elemento, se debe especificar los valores:
+    desplazamiento horizontal, desplazamiento vertical, radio de desenfoque, radio de propagación y el color
+    */
+
+    box-shadow: 5px 5px 5px 5px red;
+}
+
+.introduccion{
+        border: 2px solid purple;
+        background-color: black;
+        padding: 5px;
+        color: white;
+}
+
+.introduccion span{
+    border: 2px solid blue;
+    width: 300px;
+    height: 150px;
+    padding: 2px;
+    box-sizing: border-box;
+
+}
+
+#encabezado h1{
+    text-decoration: underline;
+}
+
+.introduccion p{
+    border: 4px solid rgb(102, 156, 207);
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.texto-fuente{
+    background-color: black;
+    color: white;
+}
+
+.propiedades-texto h2{
+    border: 2px solid red;
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px rgb(101, 104, 101);
+    font-family: "Titan One", sans-serif;
+
+}
+.propiedades-texto p{
+    padding: 11px;
+    text-align: justify;
+    line-height: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: "Acme", sans-serif;  
+
+}
+
+.propiedades-fuentes h2{
+    padding: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(101, 104, 101);
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    
+
+}
+
+.propiedades-fuentes p{
+    padding: 11px;
+    text-align: justify;
+    line-height: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-width: bolder;
+    font-style: italic;
+}
